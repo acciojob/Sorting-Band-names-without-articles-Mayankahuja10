@@ -9,11 +9,11 @@ let articles = ['A', 'AN', 'THE']
 		ref.append(li)
 	}
 function strip(word){
-	let arr word.split(" ")
+	let arr = word.split(" ")
 	let s=""
 	for(let i=0;i<arr.length;i++){
 if(articles.indexOf(arr[i].toUpperCase()) === -1){
-	S=s+arr[i]
+	s=s+arr[i]
 }
 }
 return s.trim()
